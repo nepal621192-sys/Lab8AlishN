@@ -10,7 +10,7 @@ public class Task6 {
         temp = InputHelper.getDouble(scan, "Enter temperature in Celsius:");
 
         //Output
-        System.out.println("The temperature in Fahrenheit is: " + celsiusToFahrenheit(temp));
+        System.out.printf("The temperature in Fahrenheit is:%10.2f", celsiusToFahrenheit(temp));
     }
 
     public static double celsiusToFahrenheit(double celsius) {
